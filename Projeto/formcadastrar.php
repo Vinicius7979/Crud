@@ -32,6 +32,7 @@
         </select>
 
         <button type="submit">Cadastrar Produto</button>
+        <button type="button" onclick="window.location.href='index.php'">Voltar</button>
     </form>
 </div>
 

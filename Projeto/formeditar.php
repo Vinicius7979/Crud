@@ -42,6 +42,7 @@ $row = mysqli_fetch_assoc($result);
         </select>
 
         <button type="submit">Salvar</button>
+        <button type="button" onclick="window.location.href='index.php'">Voltar</button>
     </form>
 </div>
 

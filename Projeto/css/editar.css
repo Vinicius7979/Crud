@@ -47,3 +47,11 @@ button {
 button:hover {
     background-color: #e65100;
 }
+
+button:last-of-type {
+    background-color: #6c757d;
+}
+
+button:last-of-type:hover {
+    background-color: #5a6268;
+}

@@ -1,4 +1,4 @@
-    body {
+body {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -41,4 +41,12 @@
       
       button:hover {
         background-color: #0056b3;
+      }
+      
+      button:last-of-type {
+        background-color: #6c757d;
+      }
+
+      button:last-of-type:hover {
+        background-color: #5a6268;
       }
