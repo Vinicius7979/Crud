@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+<body>
+
+    <div class="container-formulario">
+
+    <div class="header">
+        <h1>Produtos</h1>
+    </div>
+    
+    <div class="adicionar-container">
+        <button class="adicionar-btn">Adicionar</button>
+    </div>
+    
+    <div class="lista-produtos">
+        <div class="produto">
+            <span>Produto 1</span>
+            <div class="botoes">
+                <button onclick="editarProduto(1)">Editar</button>
+                <button onclick="excluirProduto(1)">Excluir</button>
+            </div>
+        </div>
+        <div class="produto">
+            <span>Produto 2</span>
+            <div class="botoes">
+                <button onclick="editarProduto(2)">Editar</button>
+                <button onclick="excluirProduto(2)">Excluir</button>
+            </div>
+        </div>
+        <div class="produto">
+            <span>Produto 3</span>
+            <div class="botoes">
+                <button onclick="editarProduto(3)">Editar</button>
+                <button onclick="excluirProduto(3)">Excluir</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script>
+        function editarProduto(id) {
+            alert("Editar Produto " + id);
+        }
+
+        function excluirProduto(id) {
+            alert("Excluir Produto " + id);
+        }
+    </script>
+
+    
+</body>
+</html>

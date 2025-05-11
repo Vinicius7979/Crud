@@ -1,0 +1,65 @@
+.header {
+    background-color: #222831;
+    color: white;
+    text-align: left;
+    padding: 15px;
+    padding-left: 30px;
+    font-size: 1.5em;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+.adicionar-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.adicionar-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.adicionar-btn:hover {
+    background-color: #218838;
+}
+
+.lista-produtos {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+
+.produto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.botoes button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.container-formulario { 
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    background-color: #DFD0B8;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
